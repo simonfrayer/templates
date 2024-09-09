@@ -1,2 +1,3 @@
-# tempaltes
-To try our issue tamplates
+# Templates
+Various templates:
+- Issues
