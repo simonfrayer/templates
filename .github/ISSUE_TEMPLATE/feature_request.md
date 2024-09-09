@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
+title: "[FEATURE]: Clear and concise title"
 labels: ''
 assignees: ''
 
@@ -12,6 +12,9 @@ A clear and concise description of what the problem is. Ex. I'm always frustrate
 
 **Describe the solution you'd like**
 A clear and concise description of what you want to happen.
+
+**Add visuals**
+Add any visuals that might help to ilustrate your idea
 
 **Describe alternatives you've considered**
 A clear and concise description of any alternative solutions or features you've considered.
