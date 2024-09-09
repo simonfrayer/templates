@@ -1,6 +1,6 @@
 ---
-name: Improvement suggestion template
-about: Suggestion on how to improve already existing feature
+name: Enhancement
+about: Suggestion on how to improve an already existing feature
 title: "[ENHANCEMENT]: Clear and concise title"
 labels: enhancement
 assignees: ''
