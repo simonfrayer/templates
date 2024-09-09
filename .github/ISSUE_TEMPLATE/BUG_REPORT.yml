@@ -30,7 +30,7 @@ body:
       description: Add any visuals that might help to describe the issue
       placeholder: Show us what you see!
     validations:
-      required: true
+      required: false
   - type: checkboxes
     id: terms
     attributes:
