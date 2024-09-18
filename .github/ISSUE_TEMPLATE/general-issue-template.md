@@ -1,6 +1,6 @@
 ---
 name: General Issue Template
-about: Describe this issue template's purpose here.
+about: The purpose of this template is consistency
 title: ''
 labels: ''
 assignees: ''
