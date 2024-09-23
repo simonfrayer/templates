@@ -7,11 +7,8 @@ assignees: ''
 
 ---
 
-## Detailed description:
-_Description of the issue_
-
-## What should be done:
-- [ ] _Some action_
+## Description:
+_Define desired outcome. What is the goal of this issue?_
 
 ## The issue is done when:
 - [ ] _Some definition_
