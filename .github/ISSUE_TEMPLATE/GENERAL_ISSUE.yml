@@ -1,8 +1,5 @@
 name: General Issue
 description: A general development issue
-title: ""
-labels: []
-projects: ["octo-org/1"]
 body:
   - type: markdown
     attributes:
