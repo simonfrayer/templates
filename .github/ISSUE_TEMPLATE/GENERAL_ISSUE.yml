@@ -30,7 +30,5 @@ body:
       placeholder: |
         - [ ] First acceptance criteria
         - [ ] Second acceptance criteria
-      value: |
-        - [ ]
     validations:
       required: true
