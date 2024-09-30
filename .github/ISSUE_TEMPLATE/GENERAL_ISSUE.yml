@@ -22,10 +22,10 @@ body:
       description: Add any visuals that might help to describe the issue
     validations:
       required: false
-   - type: textarea
+  - type: textarea
     id: issue-is-done-when
     attributes:
-      label: The issue is done when:
+      label: The issue is done when
       description: List of acceptance criteria, the issue can be closed after all items are done
       placeholder: |
         - [ ] First acceptance criteria
