@@ -1,0 +1,39 @@
+name: General Issue
+description: A general development issue
+title: ""
+labels: []
+projects: ["octo-org/1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A (detailed) description
+      placeholder: | 
+        What outcome should this issue have?
+        What value does it bring?
+    validations:
+      required: true
+  - type: textarea
+    id: visuals
+    attributes:
+      label: Visuals
+      description: Add any visuals that might help to describe the issue
+    validations:
+      required: false
+   - type: textarea
+    id: issue-is-done-when
+    attributes:
+      label: The issue is done when:
+      description: List of acceptance criteria, the issue can be closed after all items are done
+      placeholder: |
+        - [ ] First acceptance criteria
+        - [ ] Second acceptance criteria
+      value: |
+        - [ ]
+    validations:
+      required: true
