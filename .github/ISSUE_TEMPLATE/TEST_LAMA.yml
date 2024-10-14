@@ -1,4 +1,4 @@
-name: General Issue
+name: Test LAMA
 description: A general development issue
 body:
   - type: markdown
