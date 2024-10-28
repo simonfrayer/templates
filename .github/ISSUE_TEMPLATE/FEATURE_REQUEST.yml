@@ -1,0 +1,47 @@
+name: 🚀 Feature Request
+description: A feature request/enhancment
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A (detailed) description
+      placeholder: | 
+        What outcome should this feature have?
+        What value does it bring?
+    validations:
+      required: true
+  - type: dropdown
+    id: how-much-time-saved
+    attributes:
+      label: How much time does this feature save?
+      description: In your opinion, how much time per week would this feture save?
+      options:
+        - 1h
+        - 1h - 4h
+        - 4h - 1d
+        - 1d
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: visuals
+    attributes:
+      label: Visuals
+      description: Add any visuals that might help to describe the issue
+    validations:
+      required: false
+  - type: textarea
+    id: issue-is-done-when
+    attributes:
+      label: The issue is done when
+      description: List of acceptance criteria, the issue can be closed after all items are done
+      placeholder: |
+        - [ ] First acceptance criteria
+        - [ ] Second acceptance criteria
+    validations:
+      required: true
