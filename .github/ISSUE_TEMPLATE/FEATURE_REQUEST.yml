@@ -1,6 +1,7 @@
 name: 🚀 Feature Request
 description: A feature request/enhancement
 labels: ["enhancement"]
+projects: ["Test Templates"]
 body:
   - type: markdown
     attributes:
