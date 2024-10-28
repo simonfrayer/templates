@@ -1,5 +1,5 @@
 name: 🚀 Feature Request
-description: A feature request/enhancment
+description: A feature request/enhancement
 body:
   - type: markdown
     attributes:
@@ -21,10 +21,10 @@ body:
       label: How much time does this feature save?
       description: In your opinion, how much time per week would this feture save?
       options:
-        - 1h
+        - < 1h
         - 1h - 4h
         - 4h - 1d
-        - 1d
+        - > 1d
       default: 0
     validations:
       required: true
