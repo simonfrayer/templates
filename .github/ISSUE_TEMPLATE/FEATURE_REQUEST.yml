@@ -2,6 +2,13 @@ name: 🚀 Feature Request
 description: A feature request/enhancement
 labels: ["enhancement"]
 body:
+  - type: checkboxes
+    attributes:
+      label: No duplicate feature request
+      description: In case you found a duplicate, add your comments under the already existing issue.
+      options:
+        - label: I have checked that this feature has not been requested yet
+          required: true
   - type: markdown
     attributes:
       value: |
