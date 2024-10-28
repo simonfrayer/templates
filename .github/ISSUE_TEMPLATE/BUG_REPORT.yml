@@ -6,6 +6,13 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  - type: checkboxes
+    attributes:
+      label: No duplicate bug report
+      description: In case you found a duplicate, add your comments under the already existing issue.
+      options:
+        - label: I have checked that this bug has not been reported yet
+          required: true
   - type: textarea
     id: what-happened
     attributes:
