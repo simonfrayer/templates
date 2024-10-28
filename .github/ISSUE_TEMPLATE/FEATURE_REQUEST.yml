@@ -2,6 +2,10 @@ name: 🚀 Feature Request
 description: A feature request/enhancement
 labels: ["enhancement"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue!
   - type: checkboxes
     attributes:
       label: No duplicate feature request
@@ -9,10 +13,6 @@ body:
       options:
         - label: I have checked that this feature has not been requested yet
           required: true
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this issue!
   - type: textarea
     id: description
     attributes:
