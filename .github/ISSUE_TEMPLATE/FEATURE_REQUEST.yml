@@ -11,7 +11,7 @@ body:
       label: Description
       description: A (detailed) description
       placeholder: | 
-        What outcome should this feature have?
+        What should be the outcome of this feature?
         What value does it bring?
     validations:
       required: true
